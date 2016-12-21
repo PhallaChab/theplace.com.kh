@@ -1,0 +1,7 @@
+# BEGIN WordPress
+
+RewriteEngine On
+RewriteBase /subdirectoryfolder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /subdirectoryfolder/index.php [L]

@@ -1,0 +1,68 @@
+/* CSS Document */
+@font-face { 
+font-family: 'GOTHIC'; 
+src: url('../fonts/GOTHIC.TTF'); 
+font-weight: normal; font-style: normal; 
+}
+
+body {
+    font-size: 14px;
+	font-family:GOTHIC !important;
+}
+
+.site-header-main{ background-color: rgba(0,0,0,1);}
+.main-navigation a { font-size:16px;}
+#bar-img-top {
+    bottom: -2px;
+	
+}
+.pulltop-1{ padding-top:75px; clear:both !important;}
+.vcenter {
+    padding-bottom: 15px;
+}
+
+#menu-gym-menu{ margin-top:8px;}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
+    font-weight: 700;
+    color: #fff;
+}
+/*Desktop size*/
+ .carousel-indicators .active {
+    width: 35px;
+    background-color: #f00;
+}
+.carousel-indicators li {
+    width: 35px;
+    border: 1px solid #f00;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 56.875em){
+.main-navigation ul ul li {
+    background-color: rgba(237,28,36,0.7);
+}
+.main-navigation ul ul a {
+    width: 15.6875em;
+}
+.pulltop-1{ padding-top:75px; clear:both !important;}
+}
+
+@media screen and (max-width: 554px){
+#discover_more a, #apply_now a {
+    padding: 8px 8px;
+    font-size: 13px;
+}
+.discount .col-lg-6, .col-md-6, .col-xs-6, .col-sm-6{ padding:5px;}
+}
+@media screen and (min-width: 61.5625em){
+.site-branding, .site-header-menu, .header-image {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+}
+@media screen and (min-width: 44.375em){
+.site-branding {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+}
